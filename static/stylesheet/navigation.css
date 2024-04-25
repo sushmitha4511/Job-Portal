@@ -1,0 +1,221 @@
+.h1 {
+    color:orange;
+    padding-left:500px;
+    padding-top:20px;
+    padding-bottom:30px;
+    background-color:rgb(65, 63, 63);
+}
+.navbar-brand {
+    color:white ;
+    padding-left:5px;
+    margin-left:10px;
+    
+}
+.nav-link {
+    color:white !important;
+    font-size:large;
+    
+}
+.nav-link:hover{
+    color:orange !important;
+    font-weight:bold;
+    background-color:rgb(65, 63, 63);
+    border-radius:10px;
+    
+}
+.navbar-brand:hover {
+    color:orange;
+    font-weight:bold;
+}
+.heading {
+    position:absolute;
+    top:80%;
+    left:24%;
+    transform:translate(-50%, -50%);
+    color:black;
+    padding:10px 20px;
+    font-size:60px;
+    font-weight:bold;
+ }
+ .heading1 {
+     color:white;
+     background-color:rgb(65, 63, 63);
+     font-size:50px;
+     margin-top:10px;
+    
+ }
+ .heading:hover {
+     background-color:orange;
+     color:black;
+     cursor:pointer;
+ }
+ .heading2 {
+     position:absolute;
+     top:180%;
+     right:40%;
+     transform:translate(-50%, -50%);
+     color:black;
+     padding:10px 20px;
+     font-size:60px;
+     font-weight:bold;
+  }
+ .image1 {
+     width:800px;
+     height:400px;
+     margin-left:600px;
+ 
+     
+ }
+ .image2 {
+     width:250px;
+     height:250px;
+     margin-left:50px;
+     margin-top:20px;
+     margin-bottom:20px;
+    
+     
+ 
+ }
+ .down {
+    color: white;
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 200px;
+    margin-top: 100px;
+ }
+ .down:hover {
+    background-color:orange;
+     color:black;
+     cursor:pointer;
+ }
+ .facebook {
+     bottom:0;
+     margin-left:0px;
+     font-weight:bold;
+     font-size:large;
+     background-color: rgb(8, 48, 107);
+     display: inline;
+     padding-left: 10px;
+     padding-right: 10px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     color: white;
+     
+ }
+ .facebook:hover {
+     color:rgb(8, 48, 107);
+     background:white;
+     cursor:pointer;
+ }
+ .amazon {  
+    margin-left:0px;
+    font-weight:bold;
+    font-size:large;
+    background-color:yellow;
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+ }
+ .amazon:hover {
+     color:black;
+     background:white;
+     cursor:pointer;
+ }
+ .infosys {
+    margin-left:0px;
+    font-weight:bold;
+    font-size:large;
+    background-color:rgb(15, 79, 175);
+    display: inline;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+     
+ }
+ .infosys:hover {
+    color:rgb(15, 79, 175);
+    background:white;
+    cursor:pointer;
+}
+ 
+ .hcl {
+        margin-left:0px;
+        font-weight:bold;
+        font-size:large;
+        background-color: white;
+        display: inline;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        color: rgb(15, 79, 175);
+     
+ }
+ .hcl:hover {
+     color:white;
+     background:rgb(15, 79, 175);
+     cursor:pointer;
+ }
+ .placements {
+    background-color: rgb(65, 63, 63);
+   
+ }
+ button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#login-button {
+    background-color: #4CAF50;
+    color: white;
+    margin-right: 10px;
+}
+#home {
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.admin {
+    font-size: 36px;
+    color:white;
+    text-align: center;
+}
+.buttons {
+    text-align: center;
+}
+.username-password {
+ margin-left: 575px;
+ margin-bottom: 50px;
+ margin-top: 50px;
+}
+#username {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+}
+#password {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+}
+#register {
+    background-color: rgb(65, 63, 63);
+    color: white;
+    margin-right: 10px;
+    margin-left: 600px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
