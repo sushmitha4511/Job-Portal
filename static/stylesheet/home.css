@@ -11,6 +11,9 @@
     margin-left:10px;
     
 }
+.navbar-nav {
+    margin-left: 300px;
+}
 .nav-link {
     color:white !important;
     font-size:large;
@@ -162,8 +165,7 @@
      cursor:pointer;
  }
  .placements {
-    background-color: rgb(65, 63, 63);
-   
+    background-color: rgb(65, 63, 63);  
  }
  button {
     padding: 10px 20px;
