@@ -68,7 +68,7 @@
     }
     header {
         width: 100%;
-        height: 80%;
+        height:400px;
         background-image: url("images/image1.jpg");
         background-position: center;
         background-repeat: no-repeat;
@@ -345,40 +345,22 @@
                     background-color: var(--primaryColor);
                     color: var(--whiteColor);
                 }
-                .swiper {
-                    width: 80%;
-                    height: 400px;
-                    margin-top: 2rem;
-                }
-                .swiper-slide {
-                    background: var(--whiteColor);
+                .testimoni1 {
+                    background-color: white;
                     display: flex;
-                    flex-direction: column;
-                    justify-content: center;
-                    align-items: center;
-                    padding:2rem 1rem;
-                    box-shadow: rgba(50,50,93,0.25) 0px 13px 27px 5px, Irgba(0, 0, 0, 0.3) 0px 8px 16px 8px;
-                    color: var(--blackColor);
+                    flex-direction: row;
+                    display: flex;
+                    margin-top: 20px;
+                    flex-wrap: wrap;
+                    
                 }
-                    .swiper-slide i {
-                    font-size: 48px;
-                    color: var(--yellowColor);
-                    margin-bottom: 1rem;
-                    }
-                    .swiper-slide h3 {
-                    font-family: 'Noto Serif', serif;
-                    }
-                    .testimoni-pic{
-                    padding: 1rem;
-                    }
-                    .testimoni-pic img {
-                        display: block;
-                        margin: 1rem auto;
-                        width: 50px;
-                        height: 50px;
-                        object-fit: cover;
-                        border-radius: 50%;
-                    }
+                .testimonicaption {
+                    color: #333;
+                    padding: 20px 20px 20px 70px;
+                }
+                .testimonipic {
+                    width: 150px;
+                }
                     .blog {
                         width: 100%;
                         height: auto;
@@ -419,4 +401,3 @@
                             color: var(--whiteColor);
                             margin-right: 10px;
                         }
-                
