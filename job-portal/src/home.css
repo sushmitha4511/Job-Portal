@@ -214,16 +214,16 @@
                 font-size: 0.8rem;
             }
             .label-a {
-                background-color: var(--yellowColor);
+                background-color: var(--blackColor);
             }
             .label-b {
-                background-color: var(--primaryColor);
+                background-color: var(--blackColor);
             }
             .label-c {
                 background-color: var(--blackColor);
             }
             .label-d {
-                background-color: var(--primaryColor);
+                background-color: var(--blackColor);
             }
             .label-e {
                 background-color:var(--primaryColor);
