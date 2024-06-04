@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
+import  './home.css';
+import './style.css';
+import myImage from './images/studentimg2.jpg';
 
-function Student() {
+const Student = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [showLoginForm, setShowLoginForm] = useState(false);
@@ -17,6 +20,7 @@ function Student() {
 
   return (
     <div>
+      <img src={myImage}  class="studentimg" alt="My Image" />
       <h2>Student Login Page:</h2>
       <p>Would you like to log in?</p>
       <button onClick={handleShowLoginForm}>Yes</button>
