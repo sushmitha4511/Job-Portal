@@ -9,7 +9,7 @@ function Header(){
         <h2 class="navbar-logo"><a href="#">JOBIFY</a></h2>
         <div class="navbar-menu">
         <a href="#company">Company</a>
-        <a href="#admin">Admin</a>
+        <a href="admin.html">Admin</a>
         <a href='student.html'>Student</a>
         <a href="#">About</a>
         </div>
