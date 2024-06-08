@@ -8,7 +8,7 @@ function Header(){
 <nav class="navbar">
         <h2 class="navbar-logo"><a href="#">JOBIFY</a></h2>
         <div class="navbar-menu">
-        <a href="#company">Company</a>
+        <a href="company.html">Company</a>
         <a href="admin.html">Admin</a>
         <a href='student.html'>Student</a>
         <a href="#">About</a>
