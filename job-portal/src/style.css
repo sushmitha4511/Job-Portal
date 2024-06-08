@@ -40,6 +40,26 @@ button {
     color: #fff;
     cursor: pointer;
 }
+.btnbtn-primary{
+    width: 200px;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+}
+.btnbtn-primary1{
+    width: 100px;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 600px;
+    margin-top: 100px;
+}
 
 button:hover {
     background-color: #0056b3;
