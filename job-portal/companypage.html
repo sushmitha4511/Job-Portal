@@ -17,7 +17,7 @@
 						Manage Account
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="#">Post Job</a>
+						<a class="dropdown-item" href="postjob.html">Post Job</a>
 						<a class="dropdown-item" href="company.html">Change Password</a>
 						<a class="dropdown-item" href="company.html">Logout</a>
 					</div>
@@ -25,7 +25,6 @@
                         <a href="home.html">Home</a>
                         <a href="admin.html">Admin</a>
                         <a href="student.html">Student Login</a>
-                        <a href="#">About</a>
 				</li>
 			</ul>
 		</div>
@@ -35,18 +34,19 @@
 		<div class="row">
 			<div class="col-md-4">
 				<h2>Search Students</h2>
+                <a href="searchstudent.html"><button class="btn btn-primary" id="search-student-btn">Search</button></a>
 				<form id="search-student-form">
-					<!-- search student form fields will be rendered here -->
-					<button class="btn btn-primary" id="search-student-btn">Search</button>
+                    <div>
+                </div>
 				</form>
 				<ul id="student-list">
 					<!-- student list will be rendered here -->
 				</ul>
 			</div>
 			<div class="col-md-4">
-				<h2>Profile Match</h2>
-				<form id="profile-form">
-					<button class="btnbtn-primary" id="save-profile-btn">Save Profile</button>
+				<h2>Manage Jobs</h2>
+               <a href="postjob.html"><button class="btnbtn-primary" id="save-profile-btn">Post Job</button></a>
+				<form id="job-list">
 				</form>
 			</div>
             <div class="row">
@@ -55,21 +55,10 @@
                     <ul id="message-list">
                         <!-- message list will be rendered here -->
                     </ul>
-                    <button class="btnbtn-primary" id="send-message-btn">Send Message</button>
+                    <a href="messages.html"><button class="btnbtn-primary" id="send-message-btn">Send Message</button></a> 
                 </div>
             </div>
 		</div>
-        <br>
-        <div class="row">
-            <div class="col-md-4">
-                <h2>Manage Jobs</h2>
-                <ul id="job-list">
-                    <!-- job list will be rendered here -->
-                </ul>
-                <button class="btn btn-primary" id="post-job-btn">Post Job</button>
-            </div>
-        </div>
-        
 	</div>
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
@@ -87,8 +76,16 @@
                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
                     <a href="#"><i class="fab fa-youtube"></i></a>
                 </div>
+               <a href="about.html"><button class="reach-us">Reach Us</button></a>
         </div>
-        <button class="reach-us">Reach Us</button>
+        <div class="col-md-6" style="z-index: 2;">
+			<h2>Contact Information</h2>
+			<ul>
+				<li><i class="fas fa-phone"></i> Phone: +91 1234567890</li>
+				<li><i class="fas fa-envelope"></i> Email: [info@jobportal.com](mailto:info@jobportal.com)</li>
+				<li><i class="fas fa-map-marker-alt"></i> Address: 123, Main Street, Anytown, USA</li>
+			</ul>
+		</div>
     </footer>
 </body>
 </html>

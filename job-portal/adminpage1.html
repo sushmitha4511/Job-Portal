@@ -14,24 +14,7 @@
 			<a href="companypage.html">Company</a>
 			<a href="admin.html">Admin</a>
 			<a href="student.html">Student Login</a>
-			<a href="#">About</a>
 			</div>
-		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon"></span>
-		</button>
-		<div class="collapse navbar-collapse" id="navbarSupportedContent">
-			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active">
-					<a class="nav-link" href="#">Manage Students <span class="sr-only">(current)</span></a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Manage Companies</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="#">Manage Accounts</a>
-				</li>
-			</ul>
-		</div>
 	</nav>
 	<div class="container1">
 		<h1>Admin Dashboard</h1>
@@ -41,14 +24,14 @@
 				<ul id="student-list">
 					<!-- student list will be rendered here -->
 				</ul>
-				<button class="btnbtn-primary" id="create-student-btn">Create New Student</button>
+				<a href="searchstudent.html"><button class="btnbtn-primary" id="create-student-btn">Search Student</button></a>
 			</div>
 			<div class="col-md-4">
 				<h2>Manage Companies</h2>
 				<ul id="company-list">
 					<!-- company list will be rendered here -->
 				</ul>
-				<button class="btnbtn-primary" id="create-company-btn">Create New Company</button>
+				<a href="managecompanies.html"><button class="btnbtn-primary" id="create-company-btn">Manage Company</button></a>
 			</div>
 			<div class="col-md-4">
 				<h2>Manage Accounts</h2>
@@ -68,15 +51,16 @@
 		<div class="join-detail">
 			<h1 class="section-title">LETS START YOUR NEW JOB WITH US</h1>
 			<p>"Ready to take on your challenges as our's and seize every opportunity for you.</p>
-			<br />
-			<div class="social-media">
-				<a href="#"><i class="fab fa-facebook-f"></i></a>
-					<a href="#"><i class="fab fa-twitter"></i></a>
-					<a href="#"><i class="fab fa-linkedin-in"></i></a>
-					<a href="#"><i class="fab fa-youtube"></i></a>
-				</div>
+			<a href="about.html"><button class="reach-us">Reach Us</button></a>
 		</div>
-		<button class="reach-us">Reach Us</button>
+		<div class="col-md-6" style="z-index: 2;">
+			<h2>Contact Information</h2>
+			<ul>
+				<li><i class="fas fa-phone"></i> Phone: +91 1234567890</li>
+				<li><i class="fas fa-envelope"></i> Email: [info@jobportal.com](mailto:info@jobportal.com)</li>
+				<li><i class="fas fa-map-marker-alt"></i> Address: 123, Main Street, Anytown, USA</li>
+			</ul>
+		</div>
 	</footer>
 </body>
 </html>

@@ -11,7 +11,6 @@ function Header(){
         <a href="company.html">Company</a>
         <a href="admin.html">Admin</a>
         <a href='student.html'>Student</a>
-        <a href="#">About</a>
         </div>
         <div class="menu-toggle"> <span class="bar"></span>
         <span class="bar"></span>

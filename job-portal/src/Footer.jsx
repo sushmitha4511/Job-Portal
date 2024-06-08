@@ -14,8 +14,8 @@ function Footer(){
                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
                 <a href="#"><i class="fab fa-youtube"></i></a>
             </div>
+           <a href="about.html"><button class="reach-us">Reach Us</button></a> 
     </div>
-    <button class="reach-us">Reach Us</button>
 </footer>
     );
 }

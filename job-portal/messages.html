@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Company Dashboard</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="src/home.css">
+        <link rel="stylesheet" href="src/style.css">
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Job Portal Company</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Manage Account
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Post Job</a>
+                            <a class="dropdown-item" href="company.html">Change Password</a>
+                            <a class="dropdown-item" href="company.html">Logout</a>
+                        </div>
+                        <div class="navbar-menu">
+                            <a href="home.html">Home</a>
+                            <a href="admin.html">Admin</a>
+                            <a href="student.html">Student Login</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+	<div class="container6">
+		<h1>Send Messages</h1>
+		<p>Send messages to students or companies.</p>
+		<div class="row">
+			<div class="col-md-6">
+				<form id="send-message-form">
+					<div class="form-group">
+						<label for="recipient">Recipient</label>
+						<select class="form-control" id="recipient">
+							<option value="">Select a recipient</option>
+							<option value="student">Student</option>
+							<option value="company">Company</option>
+						</select>
+					</div>
+					<div class="form-group">
+						<label for="message">Message</label>
+						<textarea class="form-control" id="message" placeholder="Enter your message"></textarea>
+					</div>
+					<button class="btn btn-primary" id="send-btn">Send</button>
+				</form><br>
+			</div>
+		</div>
+        <div class="col-md-6">
+            <h2>Message History</h2>
+            <ul id="message-history">
+                <!-- message history will be rendered here -->
+            </ul>
+        </div>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script>
+		// JavaScript code to handle send message form submission and render message history
+	</script>
+</body>
+</html>
